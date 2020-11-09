@@ -1,18 +1,21 @@
 <!-- Masthead-->
 <link href="static/css/particles.css" rel="stylesheet"/>
 <link href="static/css/autotype.css" rel="stylesheet"/>
+<link rel="stylesheet" href="/static/css/home.css">
+
 <div id="particles-js"></div>
 
-<header class="masthead">
+{#<div class="parallax-window" data-parallax="scroll" data-image-src="/static/assets/img/asiri_bw1.png"></div>#}
+<header class="masthead parallax-window" data-parallax="scroll" data-image-src="/static/assets/img/asiri_bw1.png">
     <div class="container">
         <div class="col-md-8">
             {#        <div class="masthead-subheading">Welcome To Our Studio!</div>#}
             <div class="masthead-heading text-uppercase">It's not about what I have done, But what I can do for
                 you!
             </div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">You Will Get</a>
-        <div id="text"></div>
-        <div id="cursor"></div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">You Will Get</a>
+            <div id="text"></div>
+            <div id="cursor"></div>
         </div>
     </div>
 
@@ -1544,6 +1547,11 @@
 
     };
 </script>
-<script src="static/js/particles.js"></script>
-<script src="static/js/autotype.js"></script>
+
+{#<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>#}
+<script src="/static/js/parallax/parallax.min.js"></script>
+<script src="/static/js/home.js"></script>
+
+<script src="/static/js/particles.js"></script>
+<script src="/static/js/autotype.js"></script>
 {#{% endblock %}#}
