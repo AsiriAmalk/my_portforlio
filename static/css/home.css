@@ -2,4 +2,33 @@
     min-height: 400px;
     background: transparent;
 }
+body {
+    background-color: rgb(12, 12, 12);
+}
+.btn-primary {
+    background-color: #fed136;
+    color: black;
+    border-color: #fed136;
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
+}
+
+.btn:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+  background-color: goldenrod;
+    border-color: goldenrod;
+
+}
+#text {
+    display:inline-block;
+    vertical-align: middle;
+    color: orange;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#cursor {
+    display: inline-block;
+}
+
 
