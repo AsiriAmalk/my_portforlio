@@ -275,3 +275,7 @@ img {
 .section-title-1 span {
   color: #cb2d3e;
 }
+.feedback-slider-item p {
+	font-size: 17px;
+		/*font-weight: bold;*/
+}
