@@ -17,7 +17,7 @@ img {
 /*	padding: 60px 0;*/
 /*}*/
 
-.section-title {
+.section-title-1 {
 	font-size: 28px;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
@@ -25,25 +25,26 @@ img {
 	display: inline-block;
 	position: relative;
 	color: white;
+	text-transform: uppercase;
 }
-.section-title:after,
-.section-title:before {
+.section-title-1:after,
+.section-title-1:before {
 	content: '';
 	position: absolute;
 	bottom: 0;
 }
-.section-title:after {
+.section-title-1:after {
 	height: 2px;
-	background-color: rgba(252, 92, 15, 0.46);
+	background-color: #cb2d3e;
 	left: 25%;
 	right: 25%;
 }
 
-.section-title:before {
+.section-title-1:before {
 	width: 15px;
 	height: 15px;
 	border: 3px solid #fff;
-	background-color: #fc5c0f;
+	background-color: black;
 	left: 50%;
 	transform: translatex(-50%);
 	bottom: -6px;
@@ -271,6 +272,6 @@ img {
     max-width: 50%;
 	margin-left: 25%;
 }
-.section-title span {
-  color: #f70037;
+.section-title-1 span {
+  color: #cb2d3e;
 }
