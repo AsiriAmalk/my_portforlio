@@ -16,14 +16,14 @@ body {
 .btn:hover {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(#fff,0);
-  background-color: goldenrod;
-    border-color: goldenrod;
+  /*background-color: goldenrod;*/
+  /*  border-color: goldenrod;*/
 
 }
 #text {
     display:inline-block;
     vertical-align: middle;
-    color: orange;
+    color: #cb2d3e;
     letter-spacing: 2px;
     font-size: 40px;
 }

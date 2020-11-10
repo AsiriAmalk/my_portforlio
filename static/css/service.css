@@ -30,13 +30,7 @@
     align-items: center;
 }
 
-.border-1 {
-    width: 160px;
-    height: 2px;
-    background: #cb2d3e;
-    margin-left: 43.20%;
-    margin-bottom: 2em;
-}
+
 
 .service-container {
     display: flex;
@@ -113,7 +107,8 @@
 	position: relative;
 	color: white;
 	text-transform: uppercase;
-    margin-left: 43.9%;
+    width: 9em;
+    margin-left: 38.92%;
 
 }
 .section-title-2:after,
@@ -141,5 +136,7 @@
 	z-index: 9;
 	border-radius: 50%
 
-
+}
+.page-section h2.section-2 {
+    width: 9em;
 }
