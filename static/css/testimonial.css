@@ -24,6 +24,7 @@ body {
 	font-weight: 400;
 	display: inline-block;
 	position: relative;
+	color: white;
 }
 .section-title:after,
 .section-title:before {
@@ -270,6 +271,6 @@ body {
     max-width: 50%;
 	margin-left: 25%;
 }
-.client-say {
-
+.section-title span {
+  color: #f70037;
 }
