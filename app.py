@@ -15,6 +15,7 @@ from flask import  render_template
 from flask import request
 from controller.service import service_topics, service_desc, service_icon
 from controller.portfolio import portfolio_topics, portfolio_image, portfolio_desc, portfolio_link
+from controller.testimonials import client_names, client_feedback, client_image, client_rating
 
 app = Flask(__name__)
 
@@ -29,7 +30,13 @@ def hello_world():
                            portfolio_topics=portfolio_topics,
                            portfolio_image=portfolio_image,
                            portfolio_desc=portfolio_desc,
-                           portfolio_link=portfolio_link)
+                           portfolio_link=portfolio_link,
+
+                           client_names=client_names,
+                           client_feedback=client_feedback,
+                           client_image=client_image,
+                           client_rating=client_rating,
+                           )
 
 
 @app.route('/test')

@@ -14,56 +14,19 @@
             <div class="row">
                 <div class="col-md-offset-3 col-md-6 col-sm-offset-2">
                     <div class="owl-carousel feedback-slider">
-
-                        <!-- slider item -->
-                        <div class="feedback-slider-item">
-                            <img src="//c2.staticflickr.com/8/7310/buddyicons/24846422@N06_r.jpg"
-                                 class="center-block img-circle" alt="Customer Feedback">
-                            <h3 class="customer-name">Lisa Redfern</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It
-                                is a
-                                long
-                                established fact that a reader will be distracted by the readable its
-                                layout.</p>
-                            <span class="light-bg customer-rating" data-rating="5">
-								5
+                        {% for name in client_names %}
+                            <div class="feedback-slider-item">
+                                <img src="/static/assets/img/testimonial/{{ client_image[loop.index0] }}"
+                                     class="center-block img-circle" alt="Customer Feedback">
+                                <h3 class="customer-name">{{ name }}</h3>
+                                <p>{{ client_feedback[loop.index0] }}</p>
+                                <span class="light-bg customer-rating" data-rating="{{ client_rating[loop.index0] }}">
+								{{ client_rating[loop.index0] }}
 								<i class="fa fa-star"></i>
 							</span>
-                        </div>
-                        <!-- /slider item -->
+                            </div>
 
-                        <!-- slider item -->
-                        <div class="feedback-slider-item">
-                            <img src="https://res.cloudinary.com/hnmqik4yn/image/upload/c_fill,fl_force_strip,h_128,q_100,w_128/v1493982718/ah57hnfnwxkmsciwivve.jpg"
-                                 class="center-block img-circle" alt="Customer Feedback">
-                            <h3 class="customer-name">Cassi</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It
-                                is a
-                                long
-                                established fact that a reader will be distracted by the readable its
-                                layout.</p>
-                            <span class="light-bg customer-rating" data-rating="4">
-								4
-								<i class="fa fa-star"></i>
-							</span>
-                        </div>
-                        <!-- /slider item -->
-
-                        <!-- slider item -->
-                        <div class="feedback-slider-item">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/451270/profile/profile-80.jpg"
-                                 class="center-block img-circle" alt="Customer Feedback">
-                            <h3 class="customer-name">Md Nahidul</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It
-                                is a
-                                long
-                                established fact that a reader will be distracted by the readable its
-                                layout.</p>
-                            <span class="light-bg customer-rating" data-rating="5">
-								5
-								<i class="fa fa-star"></i>
-							</span>
-                        </div>
+                        {% endfor %}
                         <!-- /slider item -->
 
                     </div><!-- /End feedback-slider -->
