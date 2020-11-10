@@ -1,6 +1,6 @@
 .butFrame:hover {
-    box-shadow: 0 8px 20px rgba(255, 255, 255, 1);
-    border: 6px solid #ff4600;
+    box-shadow: 0 8px 20px rgba(203, 25, 62, 1);
+    border: 2px solid #cb2d3e;
 }
 
 .butFrame:hover,
