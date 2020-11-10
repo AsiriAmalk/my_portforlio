@@ -8,13 +8,13 @@ img {
 	max-width: 100%;
 }
 
-body {
-	font-family: 'Roboto Slab', serif;
-	font-size: 15px;
-	line-height: 1.67;
-	color: #444;
-	padding: 60px 0;
-}
+/*body {*/
+/*	font-family: 'Roboto Slab', serif;*/
+/*	font-size: 15px;*/
+/*	line-height: 1.67;*/
+/*	color: #444;*/
+/*	!*padding: 60px 0;*!*/
+/*}*/
 
 .section-title {
 	font-size: 28px;
