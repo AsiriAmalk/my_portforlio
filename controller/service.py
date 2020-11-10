@@ -30,7 +30,7 @@ service_dict = {
         'database'],
     "Android": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        'android'],
+        'apple'],
 }
 service_topics = service_dict.keys()
 service_desc = []
