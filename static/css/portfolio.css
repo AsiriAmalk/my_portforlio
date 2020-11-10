@@ -1,0 +1,70 @@
+.butFrame:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 1);
+    border: 6px solid #ff4600;
+}
+
+.butFrame:hover,
+.butFrame:active {
+    animation: bounce 0.6s ease;
+    -webkit-animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -10px;
+    }
+    50% {
+        top: 5px;
+    }
+    75% {
+        top: -5px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -10px;
+    }
+    50% {
+        top: 5px;
+    }
+    75% {
+        top: -5px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 950px) and (min-width: 701px) {
+
+    .butFrame {
+        display: block;
+        -webkit-flex: 1 50%;
+        -ms-flex: 1 50%;
+        flex: 1 50%;
+    }
+
+}
+
+@media all and (max-width: 700px) and (min-width: 0px) {
+
+    .butFrame {
+        display: block;
+        -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+    }
+
+}

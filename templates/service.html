@@ -6,84 +6,26 @@
 {#	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">#}
 {#	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">#}
 <section class="page-section" id="services">
-        <div class='inner-container'>
-            <h1 class='section-title'>Information</h1>
-            <div class='border'></div>
-            <div class='service-container'>
+    <div class='inner-container'>
+        <h1 class='section-title'>Information</h1>
+        <div class='border'></div>
+        <div class='service-container'>
 
+            {% for topic in service_topics %}
                 <div class='service-box'>
                     <div class='service-icon'>
-                        <i class='fa fa-paint-brush'></i>
+                        <i class='fa fa-{{ service_icon[loop.index0] }}'></i>
                     </div>
-                    <div class='service-title'>Web Designs</div>
+                    <div class='service-title'>{{ topic }}</div>
                     <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
+                     {{ service_desc[loop.index0] }}
                     </div>
                 </div>
 
-                <div class='service-box'>
-                    <div class='service-icon'>
-                        <i class='fa fa-code'></i>
-                    </div>
-                    <div class='service-title'>Web Development</div>
-                    <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
-                    </div>
-                </div>
+            {% endfor %}
 
-                <div class='service-box'>
-                    <div class='service-icon'>
-                        <i class='fa fa-cut'></i>
-                    </div>
-                    <div class='service-title'>Responsive Designs</div>
-                    <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
-                    </div>
-                </div>
 
-                <div class='service-box'>
-                    <div class='service-icon'>
-                        <i class='fa fa-object-ungroup'></i>
-                    </div>
-                    <div class='service-title'>Edit Sections</div>
-                    <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
-                    </div>
-                </div>
-
-                <div class='service-box'>
-                    <div class='service-icon'>
-                        <i class='fa fa-database'></i>
-                    </div>
-                    <div class='service-title'>Databases</div>
-                    <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
-                    </div>
-                </div>
-
-                <div class='service-box'>
-                    <div class='service-icon'>
-                        <i class='fa fa-android'></i>
-                    </div>
-                    <div class='service-title'>Android</div>
-                    <div class='description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua
-                    </div>
-                </div>
-
-            </div>
+        </div>
     </div>
 
 </section>
