@@ -117,7 +117,7 @@ body {
 	position: relative;
 	color: white;
 	text-transform: uppercase;
-    margin-left: 41.8%;
+    margin-left: 41.7%;
     letter-spacing: 6px;
 
 }
@@ -127,12 +127,14 @@ body {
 	position: absolute;
 	bottom: 0;
     margin-bottom: 2px;
+     margin-left: -1.8em;
 }
 .section-title-2:after {
 	height: 2px;
 	background-color: #cb2d3e;
 	left: 25%;
 	right: 25%;
+    width: 7em;
 }
 
 .section-title-2:before {
@@ -140,7 +142,7 @@ body {
 	height: 15px;
 	border: 3px solid #fff;
 	background-color: black;
-	left: 50%;
+	left: 75%;
 	transform: translatex(-50%);
 	bottom: -6px;
 	z-index: 9;

@@ -19,13 +19,18 @@ body {
   letter-spacing: 6px;
   color: #fff;
   font-weight: 400;
+  position: relative;
+  display: inline-block;
+  margin-left: 41.7%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .section-header-1 span {
     color: #cb2d3e;
 }
 
 .contact-wrapper {
-  margin: 0 auto;
+  margin: auto;
   padding-top: 20px;
   position: relative;
   max-width: 800px;
@@ -225,7 +230,7 @@ div#contact {
   /*background-image: url("../assets/img/contact/map.jpg") ;*/
   background-repeat: no-repeat;
   background-position: center;
-  height: 60vh;
+  height: 55vh;
 
 }
 .btn-primary-1 {
@@ -238,4 +243,31 @@ div#contact {
 .direct-contact-container-1 {
   max-width: 400px;
 
+}
+.section-header-1:after,
+.section-header-1:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+    margin-bottom: 2px;
+  margin-left: -1.3em;
+}
+.section-header-1:after {
+	height: 2px;
+	background-color: #cb2d3e;
+	left: 25%;
+	right: 25%;
+    width: 7em;
+}
+
+.section-header-1:before {
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	background-color: black;
+	left: 65%;
+	transform: translatex(-50%);
+	bottom: -6px;
+	z-index: 9;
+	border-radius: 50%;
 }
