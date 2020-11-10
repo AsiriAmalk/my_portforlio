@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	align-items: center;
 }
 
 img {
@@ -53,6 +54,8 @@ body {
 .customer-feedback .owl-item img {
 	width: 85px;
 	height: 85px;
+	border-radius: 5rem;
+	display: inline;
 }
 
 .feedback-slider-item {
@@ -257,4 +260,13 @@ body {
 	padding-top: 0;
 	color: #344759;
 	text-decoration: underline;
+}
+.type {
+	flex: auto;
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	margin-left: 25%;
 }
