@@ -1,0 +1,43 @@
+.section-heading span {
+    color: #cb2d3e;
+}
+
+.section-heading {
+	font-size: 28px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-weight: 400;
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+}
+.section-heading:after,
+.section-heading:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+    margin-bottom: 2px;
+}
+.section-heading:after {
+	height: 2px;
+	background-color: #cb2d3e;
+	left: 25%;
+	right: 25%;
+}
+
+.section-heading:before {
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	background-color: black;
+	left: 50%;
+	transform: translatex(-50%);
+	bottom: -6px;
+	z-index: 9;
+	border-radius: 50%;
+
+}
+.portfolio-item {
+    margin-top: 2em;
+}
