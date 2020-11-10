@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 		loop: true,
 		mouseDrag: true,
 		touchDrag: true,
-		// navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
 		responsive:{
 
 			// breakpoint from 767 up
