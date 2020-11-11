@@ -151,7 +151,6 @@ hr {
   border-color: rgba(255,255,255,.8); ;
 }
 
-/* Begin Media Queries*/
 @media screen and (max-width: 760px) {
     #contact {
         height: 1000px;
@@ -161,7 +160,6 @@ hr {
   }
   .direct-contact-container, .form-horizontal {
     float: none;
-    /*margin: 10px auto;*/
   }
   .direct-contact-container {
 
