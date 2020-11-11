@@ -6,9 +6,9 @@ body {
     background-color: black;
 }
 .btn-primary {
-    background-color: #fed136;
+    background-color: #cb2d3e;
     color: black;
-    border-color: #fed136;
+    border-color: #cb2d3e;
     padding: 1rem 1rem;
     font-size: 1.25rem;
 }
@@ -16,15 +16,17 @@ body {
 .btn:hover {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(#fff,0);
-  background-color: goldenrod;
-    border-color: goldenrod;
+  background-color: #9e1726;
+    border-color: #9e1726;
+    color: #cdcdcd;
 }
 #text {
     display:inline-block;
     vertical-align: middle;
-    color: orange;
+    color: #fffffe;
     letter-spacing: 2px;
     font-size: 40px;
+
 }
 #cursor {
     display: inline-block;

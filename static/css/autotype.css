@@ -15,7 +15,7 @@
 	vertical-align: middle;
 	width: 3px;
 	height: 50px;
-	background-color: orange;
+	background-color: #cb2d3e;
 	animation: blink .75s step-end infinite;
 }
 
@@ -24,6 +24,6 @@
 		background-color: transparent
 	}
 	50% {
-		background-color: orange;
+		background-color: #cb2d3e;
 	}
 }

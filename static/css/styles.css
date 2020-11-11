@@ -28,12 +28,12 @@ body {
 }
 
 ::-moz-selection {
-    background: #fed136;
+    background: #fe3665;
     text-shadow: none;
 }
 
 ::selection {
-    background: #fed136;
+    background: #fe3647;
     text-shadow: none;
 }
 
@@ -78,12 +78,12 @@ img::-moz-selection {
     font-size: 0.75rem;
     color: #fff;
     text-transform: uppercase;
-    background-color: #fed136;
+    background-color: #cb2d3e;
     border: 0;
 }
 
 #mainNav .navbar-brand {
-    color: #fed136;
+    color: #cb2d3e;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     letter-spacing: 0.0625em;
@@ -102,7 +102,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: #cb2d3e;
 }
 
 @media (min-width: 992px) {
