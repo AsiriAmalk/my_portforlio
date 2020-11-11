@@ -19,12 +19,12 @@ service_dict = {
     "Front End Development": [
         "Build, service, and maintain visually appealing and user-friendly websites. Not only work across a broad range of projects and technical disciplines but also liaise closely with clients to find out their exact needs, this in turn allows them to build a site that meets a customer's exact requirements. (HTML, CSS, JS, ReactJS, VueJS)",
         'object-group'],
-    "ML&AI": [
-        "Create machine learning models and retraining systems for AI applications. Expertise in statistics, programming, data science, and software engineering. (Deep Learning, Neural Networks, Modeling, Tensorflow, OpenCV)",
-        'brain'],
     "Back End Development": [
         "Responsible for creating and maintaining technology at the back end of a website (the server, database, and application). Python3 Flask and Django Frameworks with a Version control system with GIT and knowledge of SOAP and REST web services",
         'code'],
+    "Machine Learning and AI": [
+        "Create machine learning models and retraining systems for AI applications. Expertise in statistics, programming, data science, and software engineering. (Deep Learning, Neural Networks, Modeling, Tensorflow, OpenCV)",
+        'brain'],
     "Data Bases": [
         "Write new database programs and maintain existing programs to ensure they can handle the flow of traffic and the amount of data being stored in the database. With both SQL and NoSQL databases (PostgreSQL, MySQL, Redis, MongoDB)",
         'database'],
