@@ -21,7 +21,7 @@ service_dict = {
         'object-group'],
     "ML&AI": [
         "Create machine learning models and retraining systems for AI applications. Expertise in statistics, programming, data science, and software engineering. (Deep Learning, Neural Networks, Modeling, Tensorflow, OpenCV)",
-        'ravelry'],
+        'brain'],
     "Back End Development": [
         "Responsible for creating and maintaining technology at the back end of a website (the server, database, and application). Python3 Flask and Django Frameworks with a Version control system with GIT and knowledge of SOAP and REST web services",
         'code'],
@@ -30,7 +30,7 @@ service_dict = {
         'database'],
     "Web Scrapping": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        'apple'],
+        'scroll'],
 }
 service_topics = service_dict.keys()
 service_desc = []
