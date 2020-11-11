@@ -30,7 +30,7 @@ testimonial_dict = {
     "Alex": [
         "Easy communication and back-and-forth conversations on requirements and getting the project started. Great follow ups and no problem revisions on the initial design as well to get to exactly what I had in mind.",
         'alex.jpg',
-        "4"],
+        "5"],
     # "Shwanjaff":
     #     ["Great work great in time and good with price",
     #      "shwanjaff.png",
