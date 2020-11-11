@@ -86,6 +86,7 @@ body {
 .description {
     font-size: 14px;
 }
+
 .section-title-2 span {
     color: #cb2d3e;
 }
@@ -109,44 +110,46 @@ body {
 }
 
 .section-title-2 {
-	font-size: 28px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	font-weight: 400;
-	display: inline-block;
-	position: relative;
-	color: white;
-	text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
     margin-left: 41.7%;
     letter-spacing: 6px;
 
 }
+
 .section-title-2:after,
 .section-title-2:before {
-	content: '';
-	position: absolute;
-	bottom: 0;
+    content: '';
+    position: absolute;
+    bottom: 0;
     margin-bottom: 2px;
-     margin-left: -1.8em;
+    margin-left: -1.8em;
 }
+
 .section-title-2:after {
-	height: 2px;
-	background-color: #cb2d3e;
-	left: 25%;
-	right: 25%;
+    height: 2px;
+    background-color: #cb2d3e;
+    left: 25%;
+    right: 25%;
     width: 7em;
 }
 
 .section-title-2:before {
-	width: 15px;
-	height: 15px;
-	border: 3px solid #fff;
-	background-color: black;
-	left: 75%;
-	transform: translatex(-50%);
-	bottom: -6px;
-	z-index: 9;
-	border-radius: 50%
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    background-color: black;
+    left: 75%;
+    transform: translatex(-50%);
+    bottom: -6px;
+    z-index: 9;
+    border-radius: 50%
 
 
 }
