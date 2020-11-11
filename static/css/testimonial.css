@@ -9,13 +9,6 @@ img {
 	max-width: 100%;
 }
 
-/*body {*/
-/*	font-family: 'Roboto Slab', serif;*/
-/*	font-size: 15px;*/
-/*	line-height: 1.67;*/
-/*	color: #444;*/
-/*	padding: 60px 0;*/
-/*}*/
 
 .section-title-1 {
 	font-size: 28px;
@@ -159,20 +152,25 @@ img {
 }
 
 .customer-feedback .owl-nav [class*="owl-"] {
-	position: relative;
+	position: absolute;
 	display: inline-block;
-	bottom: 45px;
+	bottom: 16em;
 	transition: all .2s ease-in;
+	margin-left: -10em;
+	margin-right: -10em;
 }
 
 .customer-feedback .owl-nav i {
 	background-color: transparent;
-	color: rgb(251, 90, 13);
+	color: #cb2d3e;
 	font-size: 25px;
+	/*margin-right: -8em;*/
+
 }
 
 .customer-feedback .owl-prev {
 	left: -15px;
+	margin-right: -20em;
 }
 
 .customer-feedback .owl-prev:hover {
@@ -181,6 +179,7 @@ img {
 
 .customer-feedback .owl-next {
 	right: -15px;
+	margin-left: -10em;
 }
 
 .customer-feedback .owl-next:hover {
@@ -203,7 +202,7 @@ img {
 	height: 11px;
 	margin: 0 5px;
 	background: #fff;
-	border: 1px solid rgb(251, 90, 13);
+	border: 1px solid #cb2d3e;
 	display: block;
 	-webkit-backface-visibility: visible;
 	-webkit-transition: all 200ms ease;
@@ -212,7 +211,7 @@ img {
 }
 
 .customer-feedback .owl-dots .owl-dot.active span {
-	background-color: rgb(251, 90, 13);
+	background-color: #cb2d3e;
 }
 
 /* RESPONSIVE */
@@ -234,6 +233,7 @@ img {
 	.customer-feedback .owl-next {
 		right: 0;
 	}
+
 
 }
 
