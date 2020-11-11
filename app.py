@@ -12,6 +12,7 @@ __date__ = '10/11/2020'
 
 from flask import Flask
 from flask import  render_template
+from flask import Markup
 from flask import request
 from controller.service import service_topics, service_desc, service_icon
 from controller.portfolio import portfolio_topics, portfolio_image, portfolio_desc, portfolio_link
@@ -33,6 +34,7 @@ def hello_world():
                            portfolio_link=portfolio_link,
 
                            client_names=client_names,
+                           name1=Markup('First line.<br>Second line.<br>'),
                            client_feedback=client_feedback,
                            client_image=client_image,
                            client_rating=client_rating,

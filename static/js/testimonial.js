@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 		items: 1,
 		nav: true,
 		dots: true,
-		autoplay: true,
+		autoplay: false,
 		loop: true,
 		mouseDrag: true,
 		touchDrag: true,
