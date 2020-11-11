@@ -170,11 +170,6 @@ hr {
     width: 60px;
     line-height: 60px;
   }
-  .social-media-list li:after {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-  }
 }
 
 @media screen and (max-width: 569px) {
