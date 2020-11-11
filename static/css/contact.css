@@ -10,6 +10,7 @@ body {
   background-color: #111;
   overflow: hidden;
   padding-bottom: 200px;
+  background-image: url("/static/assets/img/contact/map3.png");
 }
 
 .section-header-1 {
@@ -39,7 +40,7 @@ body {
   max-width: 400px;
   margin-top: 3em;
   width: 50%;
-  margin-left: 6em;
+  margin-left: 2em;
 }
 
 /* Location, Phone, Email Section */
@@ -90,7 +91,7 @@ body {
   font-size: 2.3rem;
   text-align: center;
   width: 100%;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
 }
 
 .social-media-list li a {
@@ -100,7 +101,7 @@ body {
 .social-media-list li {
   position: relative;
   top: 0;
-  left: -20px;
+  left: -4px;
   display: inline-block;
   height: 70px;
   width: 70px;
