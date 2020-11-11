@@ -14,21 +14,21 @@ __date__ = '10/11/2020'
 
 service_dict = {
     "Web Design": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Attractive UI and UX designs with conceptualizing, create, develop, and maintain visually appealing, user-friendly websites and interactive applications for any kind of business you have. (AdobeXD, PSD to HTML)",
         'paint-brush'],
-    "Web Development": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "Front End Development": [
+        "Build, service, and maintain visually appealing and user-friendly websites. Not only work across a broad range of projects and technical disciplines but also liaise closely with clients to find out their exact needs, this in turn allows them to build a site that meets a customer's exact requirements. (HTML, CSS, JS, ReactJS, VueJS)",
+        'object-group'],
+    "ML&AI": [
+        "Create machine learning models and retraining systems for AI applications. Expertise in statistics, programming, data science, and software engineering. (Deep Learning, Neural Networks, Modeling, Tensorflow, OpenCV)",
+        'ravelry'],
+    "Back End Development": [
+        "Responsible for creating and maintaining technology at the back end of a website (the server, database, and application). Python3 Flask and Django Frameworks with a Version control system with GIT and knowledge of SOAP and REST web services",
         'code'],
-    "Responsive Design": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        'cut'],
-    "Edit Sections": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        'object-ungroup'],
     "Data Bases": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Write new database programs and maintain existing programs to ensure they can handle the flow of traffic and the amount of data being stored in the database. With both SQL and NoSQL databases (PostgreSQL, MySQL, Redis, MongoDB)",
         'database'],
-    "Android": [
+    "Web Scrapping": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         'apple'],
 }
