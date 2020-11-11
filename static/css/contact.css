@@ -10,6 +10,7 @@ body {
   background-color: #111;
   overflow: hidden;
   padding-bottom: 200px;
+  background-image: url("/static/assets/img/contact/map1.jpg");
 }
 
 .section-header-1 {
