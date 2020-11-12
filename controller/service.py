@@ -29,7 +29,7 @@ service_dict = {
         "Write new database programs and maintain existing programs to ensure they can handle the flow of traffic and the amount of data being stored in the database. With both SQL and NoSQL databases (PostgreSQL, MySQL, Redis, MongoDB)",
         'database'],
     "Web Scrapping": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Web scrapping and data mining through given website. It will be an anonimous scrapping using multiple proxies. No longer user needs to do the same task again and again with the scrapper. (BeatifulSoup, Selenium, Scrapy)",
         'scroll'],
 }
 service_topics = service_dict.keys()
