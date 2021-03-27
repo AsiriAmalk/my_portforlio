@@ -16,29 +16,26 @@ from flask import Markup
 
 testimonial_dict = {
     Markup(
-        "Dr. Endre Palatinus<br> Machine Learning Engineer at Stats Perform<br>Graz, Styria, Austria"): [
+        "<b>Dr. Endre Palatinus</b><br> Machine Learning Engineer at Stats Perform<br>Graz, Styria, Austria"): [
         "Asiri is a great Django developer. He is able to quickly pick up new technology, and understand complex data engineering topics. I would recommend him for working in a team as well, as he understands how to work in a team using github on the same project pretty well.",
         "endre_palantinus.jpg",
         "5"
     ],
     Markup(
-        "Dvir (大卫) Kenig<br>Co-Founder&CTO at ITC<br>B.Sc Electric&Computer engineering<br>Technical Chinese expert"): [
+        "<b>Dvir (大卫) Kenig</b><br>Co-Founder&CTO at ITC<br>B.Sc Electric&Computer engineering<br>Technical Chinese expert"): [
         "We are highly impressed from Mr.Asiri professionalism. Deliver the work perfectly within the scope of the allocated time. the output of his work is accurately according to the expectation. a pleasure to work with you Mr.Asiri, happy that you are part of our team.",
         "dvir_kenig.jpg",
         "5"
     ],
-    "Alex": [
+    Markup(
+        "<b>Alexander Harmsen</b> <br> Serial entrepreneur, dreamer & builder working on hard tech. CEO/Founder at World Predictions, Chairman/Cofounder at Iris Automation, Advisor at Verisim"): [
         "Easy communication and back-and-forth conversations on requirements and getting the project started. Great follow ups and no problem revisions on the initial design as well to get to exactly what I had in mind.",
         'alex.jpg',
         "5"],
-    # "Shwanjaff":
-    #     ["Great work great in time and good with price",
-    #      "shwanjaff.png",
-    #      "5"],
-    # "Qiuziguo":
-    #     ["Very good job, fast and effective.",
-    #      "shwanjaff.png",
-    #      "5"],
+    "Guneeth Singh":
+        ["Asiri did an amazing job and was really prompt to my queries, didn't hesitate to put in more hours to learn new concepts. I 100% recommend him for a great result.",
+         "no_image.png",
+         "5"],
     "oroefe":
         [
             "Asiri was very helpful and was happy to amend the project based on further requirements. He goes above and beyond when further help is required. I’d recommend him to anyone that requires projects in data mining!",
@@ -114,12 +111,11 @@ testimonial_dict = {
         ["Got the best service. Highly recommended and he gives his best to achieve the targets.",
          "oshanaiddi.jpg",
          "5"],
-    # "aharmsen":
-    #     [
-    #         "Easy communication and back-and-forth conversations on requirements and getting the project started. Great follow ups and no problem revisions on the initial design as well to get to exactly what I had in mind.",
-    #         "aharmsen.jpg",
-    #         "5"],
-
+    Markup(
+        "<b>Alexander Harmsen </b> <br> Serial entrepreneur, dreamer & builder working on hard tech. CEO/Founder at World Predictions, Chairman/Cofounder at Iris Automation, Advisor at Verisim"): [
+        "Easy communication and back-and-forth conversations on requirements and getting the project started. Great follow ups and no problem revisions on the initial design as well to get to exactly what I had in mind.",
+        'alex.jpg',
+        "5"],
 }
 
 client_names = testimonial_dict.keys()
