@@ -17,7 +17,7 @@ from flask import Markup
 portfolio_dict = {
 
     Markup("Global Predictions <br>-Flask-"): [
-        "We're building a modeling platform to change the future of mankind, a project that many have dreamed about, but few have actually dared to build. If you are in the top 1% of your field in economics, finance, political science, mathematics, machine learning, or software development, connect and lets have a conversation.",
+        "Global Predictions is a digital twin of the economy which makes unbiased forecasts into the future using hyperconnected simulations, economic modeling, diverse data streams, and machine learning.",
         'covid_dashboard.png',
         "http://forecasts.globalpredictions.ai/"],
     Markup("USA Urban Details <br>-Flask-"): [
