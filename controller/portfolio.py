@@ -36,9 +36,9 @@ portfolio_dict = {
         "Detect comic speech bubble boxes accurately and draw a box around that. Computer Vision (OpenCV), Python3 algorithms with image processing. Three versions have been created with py tesseract, OCR-Space and, image segmentation",
         'ocr.png',
         "https://github.com/AsiriAmalk/Comic_Speech_Bubble_Identifier_Using_OcrSpace"],
-    "Scrappers": [
-        "Yahoo finance scrapper with automatic with cookies. This scrape specific sections in the Yahoo finance site with rotating proxies to avoid getting banned. The dashboard is built from Django and, a notification will send to the discord webhook.",
-        'scrapper.png',
+    "Scrapers": [
+        "Yahoo finance scraper with automatic with cookies. This scrape specific sections in the Yahoo finance site with rotating proxies to avoid getting banned. The dashboard is built from Django and, a notification will send to the discord webhook.",
+        'scraper.png',
         "https://github.com/AsiriAmalk/full_stock"],
     "Artificial Intelligence": [
         "Deep reinforcement learning Ongoing Research and Development (R&D) to reduce the time spent on optimizing the circuit locations in Printed Circuit Boards(PCB). This is a private repo.",
